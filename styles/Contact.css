@@ -1,0 +1,164 @@
+.contact h2 {
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.contact {
+  margin: 80px 0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.pic-contact {
+  height: 300px;
+  width: 350px;
+  position: relative;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: auto;
+}
+
+.contact-name-email {
+  color: var(--main-text-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-name-email .name {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.contact-name-email .email {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-message {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+  color: var(--main-text-color);
+}
+
+.contact-name-email input,
+.contact-message textarea {
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-top: 5px;
+  resize: none;
+}
+
+.contact-message textarea {
+  width: 100%;
+}
+
+.contact-name-email input {
+  height: 20px;
+  width: 250px;
+}
+
+.submit-contact {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.btn-submit-contact {
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  background-color: var(--orange-color);
+  stroke: none;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 12px;
+  box-shadow: 0px 5px 8px 5px rgba(0, 0, 0, 0.1);
+}
+
+.error-contact-form {
+  color: #ff6584;
+  font-size: 0.7rem;
+  margin-top: 3px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1155px) {
+  .pic-contact img {
+    display: none;
+  }
+
+  .form-container {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form-container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+  .contact-name-email {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-name-email input,
+  .contact-message textarea {
+    font-size: 0.9rem;
+  }
+
+  .contact-name-email .name input {
+    height: 20px;
+    width: 100%;
+  }
+
+  .contact-name-email .name {
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .contact-name-email .email {
+    width: 100%;
+  }
+
+  .contact-name-email .email input {
+    height: 20px;
+    width: 100%;
+  }
+
+  .pic-contact img {
+    display: none;
+  }
+}

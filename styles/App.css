@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --main-text-color: #343F56;
+  --orange-color: #FFA42A;
+  --light-red-color : #FF6584;
+}
+
