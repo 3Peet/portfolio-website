@@ -47,14 +47,15 @@ function Banner() {
           <p className="detail-text">
             CREATIVE FRONT-END WEB DEVELOPER | EDUCATOR
           </p>
-
-          <button
-            type="button"
-            name="btn-download-resume"
-            className="btn-download-resume"
-          >
-            Download Resume
-          </button>
+          <form method="get" action="/CV.pdf" target="_blank">
+            <button
+              type="submit"
+              name="btn-download-resume"
+              className="btn-download-resume"
+            >
+              Download Resume
+            </button>
+          </form>
           <br />
           <div className="social-icon-container">
             <a href="https://github.com/3Peet" target="_blank" rel="noreferrer">

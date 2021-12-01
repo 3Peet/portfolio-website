@@ -13,7 +13,7 @@ function App() {
       <Head>
         <link rel="icon" href="/logoNav.png" />
         <link rel="apple-touch-icon" href="/logoNav.png" />
-        <title>Home</title>
+        <title>Thanakrit Naprasert - Web Developer</title>
       </Head>
 
       <Header></Header>

@@ -72,6 +72,9 @@ const HYDROPLANT_IMG = [
 
 const ISC_INTERN_IMG = [
   {
+    image: "/images/isc_stack.png",
+  },
+  {
     image: "/images/isc_1.png",
   },
   {
