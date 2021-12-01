@@ -1,138 +1,118 @@
-
-
 .projects {
-    /* margin-top: 100px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
-
+  /* margin-top: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.topic-projects{
-    display: flex;
-    justify-content: center;
-    color: var(--main-text-color);
-    margin: 10px;
+.topic-projects {
+  display: flex;
+  justify-content: center;
+  color: var(--main-text-color);
+  margin: 10px;
 }
 
 .project-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top:40px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 8px 4px rgba(90, 90, 88, 0.1);
-    height: 400px;
-    padding: 30px 40px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px 4px rgba(90, 90, 88, 0.1);
+  height: 400px;
+  padding: 30px 40px;
+  box-sizing: border-box;
 }
-
-
-
-
 
 .text-project {
-    box-sizing: border-box;
-    color: var(--main-text-color);
-    width: 50%;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-right: 20px;
-}
-
-.details-project {
-    text-align: justify;
-    overflow: auto;
+  box-sizing: border-box;
+  color: var(--main-text-color);
+  width: 50%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
 }
 
 .btn-project {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    /* overflow: auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* overflow: auto; */
 }
 
-.btn-live-demo{
-    border-radius: 5px;
-    width: auto;
-    height: auto;
-    padding: 12px;
-    background-color: var(--orange-color);
-    stroke: none;
-    color: white;
-    border: none;
-    box-shadow: 0px 5px 8px 5px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-    margin-right: 20px;
+.btn-live-demo {
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  padding: 12px;
+  background-color: var(--orange-color);
+  stroke: none;
+  color: white;
+  border: none;
+  box-shadow: 0px 5px 8px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-right: 20px;
 }
 
 .btn-live-demo:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .details-project p {
-    line-height: 1.5;
-    font-size: .95em;
+  line-height: 1.5;
+  font-size: 0.95em;
 }
 
-@media screen and (min-width:700px) and (max-width:1155px){
-    .project-content {
-        flex-direction: column-reverse;
-        justify-content: center;
-        height: 620px;
-        align-items: center;
-    }
+@media screen and (min-width: 700px) and (max-width: 1155px) {
+  .project-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 620px;
+    align-items: center;
+  }
 
-    .text-container {
-        margin: 20px 0;
-    }
+  .text-container {
+    margin: 20px 0;
+  }
 
-
-
-    .text-project {
-
-        width: 100%;
-        margin-right: 0;
-
-    }
+  .text-project {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
-@media screen and (max-width:700px){ 
-    .projects {
-        width: 90%;
-    }
+@media screen and (max-width: 700px) {
+  .projects {
+    width: 90%;
+  }
 
-    .project-content {
-        margin: 50px 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        height: 700px;
-    }
+  .project-content {
+    margin: 50px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+  }
 
-    .text-project {
-        padding: 20px;
-        box-sizing: border-box;
-        width: 100%;
-        height: 100%;
-        margin-right: 0;
-    }
+  .text-project {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+  }
 
-    .btn-project {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-
-
+  .btn-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }

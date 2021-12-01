@@ -1,79 +1,72 @@
 .about {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .topic-about {
-    margin-top: 150px;
-    display: flex;
-    justify-content: center;
-    color: var(--main-text-color);
-    display: none;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  color: var(--main-text-color);
+  display: none;
 }
 
 .about-content {
-    background-color: var(--orange-color);
-    height: auto;
+  background-color: var(--orange-color);
+  height: auto;
 }
 
 .about-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .boy-window {
-    width: 50%;
-    cursor: pointer;
+  width: 50%;
+  cursor: pointer;
 }
 .boy-window canvas {
-    width: 15vw;
-    height: 15vw;
+  width: 15vw;
+  height: 15vw;
 }
 
-
-
-
 .text-about {
-    color : white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: justify;
-    width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* text-align: justify; */
+  width: 50%;
 }
 
 .wave-spacer {
-    aspect-ratio: 960/200;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
+@media screen and (max-width: 700px) {
+  .about-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .boy-window canvas {
+    width: 55vw;
+    height: 55vw;
+  }
 
-
-@media screen and (max-width:700px){ 
-    .about-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .boy-window canvas {
-        width: 55vw;
-        height: 55vw;
-    }
-
-
-    .text-about {
-        width: auto;
-        height: auto;
-        color : white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: justify;
-    }
+  .text-about {
+    width: auto;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: justify; */
+  }
 }
