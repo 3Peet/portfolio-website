@@ -1,7 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
-import Image from "next/image";
 
 function Contact() {
   const {
@@ -33,10 +32,9 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <h2>Get In Touch</h2>
-
       <div className="form-container">
         <div className="pic-contact">
-          <Image src="/undraw_mail_re_duel.svg" alt="pic" layout="fill" />
+          <img src="/undraw_mail_re_duel.svg" alt="" />
         </div>
         <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
           <div className="contact-name-email">
