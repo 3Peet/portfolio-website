@@ -35,6 +35,7 @@ function ams() {
                 href="https://www.isc-intl.com/"
                 target="_blank"
                 rel="noreferrer"
+                className="isc_link"
               >
                 Innovation Software Consulting Co Ltd.{" "}
               </a>

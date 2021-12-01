@@ -116,6 +116,10 @@
   margin: 10px 0;
 }
 
+.isc_link {
+  color: var(--orange-color);
+}
+
 @media screen and (min-width: 700px) and (max-width: 1155px) {
   .details-container {
     width: 100%;

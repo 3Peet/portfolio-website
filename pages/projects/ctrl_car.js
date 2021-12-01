@@ -96,10 +96,10 @@ function ctrl_car() {
             <p>Use hands gesture to control the car instead of a joystick.</p>
             <ul>
               <li>
-                The left hand is used to control the car`&apos;`s direction by
-                The 3D tilting sensor on the glove. When you slop the left hand
-                to the right, The car will turn right. And turn left when slop
-                to the left.
+                The left hand is used to control the car&apos;s direction by The
+                3D tilting sensor on the glove. When you slop the left hand to
+                the right, The car will turn right. And turn left when slop to
+                the left.
               </li>
               <li>
                 Forward and stop the car by opening and closing the palm of the
