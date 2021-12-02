@@ -9,6 +9,10 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
             rel="stylesheet"
           />
+
+          <meta name="theme-color" content="#FFA42A" />
+          <meta name="description" content="Portfolio Website" />
+          <link rel="apple-touch-icon" href="/logoNav.png" />
         </Head>
         <body>
           <Main />
