@@ -3,7 +3,7 @@ import { useRive, StateMachineInput, useStateMachineInput } from 'rive-react';
 
 let aboutDetail = {
     data1: "Hello, I’m Thanakrit Naprasert. You can call me Peet. I'm graduated from Kasetsart University in Thailand and my major is computer engineering. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and simplify.",
-    data2: "I have an interest in using technology to solve problems in real life and in my free time I like to learn the technologies themselves."
+    data2: "I have an interest in using technology to solve problems in real life and in my free time I like to learn the technologies by myself."
 }
 
 
