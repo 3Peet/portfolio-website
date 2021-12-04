@@ -2,6 +2,8 @@ import React from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 
+import { useSnackbar } from "react-simple-snackbar";
+
 function Contact() {
   const {
     register,
@@ -24,10 +26,30 @@ function Contact() {
         "user_FFLqlyIkoNMdYCUThbcOR"
       )
       .then((res) => {
+        openSnackbar("🎉 Thank you for contacting me.", [4000]);
+        document.contactForm.reset();
         console.log(res);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        openSnackbar("📛 Something error, please contact me with social.", [
+          4000,
+        ]);
+        console.log(err);
+      });
   }
+  const options = {
+    style: {
+      backgroundColor: "#4a4e69",
+      color: "white",
+      fontSize: "16px",
+      textAlign: "center",
+    },
+    closeStyle: {
+      color: "#d9ed92",
+      fontSize: "16px",
+    },
+  };
+  const [openSnackbar, closeSnackbar] = useSnackbar(options);
 
   return (
     <div className="contact" id="contact">
@@ -36,7 +58,11 @@ function Contact() {
         <div className="pic-contact">
           <img src="/undraw_mail_re_duel.svg" alt="" />
         </div>
-        <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
+        <form
+          className="contact-form"
+          name="contactForm"
+          onSubmit={handleSubmit(onSubmit)}
+        >
           <div className="contact-name-email">
             <div className="name">
               <label>Name</label>

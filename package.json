@@ -2,13 +2,10 @@
   "name": "portfolio-website",
   "private": true,
   "scripts": {
-    "dev":"next",
-    "production":"next build && next start"
+    "dev": "next",
+    "production": "next build && next start"
   },
   "dependencies": {
-    "next": "12.0.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
@@ -19,9 +16,13 @@
     "@testing-library/user-event": "^12.8.3",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^4.1.17",
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-hook-form": "^7.19.0",
     "react-icons": "^4.3.1",
     "react-scroll": "^1.8.4",
+    "react-simple-snackbar": "^1.1.11",
     "rive-react": "0.0.26",
     "web-vitals": "^1.1.2"
   },

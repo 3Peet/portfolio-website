@@ -4,6 +4,7 @@ import About from "/components/About";
 import Projects from "/components/Projects";
 import Contact from "/components/Contact";
 import Footer from "/components/Footer";
+import SnackbarProvider from "react-simple-snackbar";
 
 import Head from "next/head";
 
@@ -20,7 +21,9 @@ function App() {
       <Banner></Banner>
       <About></About>
       <Projects></Projects>
-      <Contact></Contact>
+      <SnackbarProvider>
+        <Contact></Contact>
+      </SnackbarProvider>
       <Footer></Footer>
     </div>
   );
