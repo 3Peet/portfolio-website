@@ -20,7 +20,7 @@ function hydroplant() {
       <Header></Header>
       <div className="projects-wrapper">
         <div className="head-projects">
-          <h1>Hydroplant</h1>
+          <h1>HYDROPLANT</h1>
         </div>
 
         <div className="intro-projects">
