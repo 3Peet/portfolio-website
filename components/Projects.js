@@ -10,6 +10,8 @@ const projectsData = {
   controlCar:
     "This project is the development of a control car that can be controlled by hand. Using gloves to control as a signal to control the car The connection between the control car and the glove is use microcontroller in communication The working principle is Left-hand tilt to make the car turn left, right-hand tilt to make the car turn right, hand open to making the car move forward, and a clenched fist to stop the car.",
   ams: "This project is one that I developed during my internship. I developed an application about account management and the function that I have received is the work part is a further development from the existing project is to develop the system to be able to work on the website (Web-Application) and add Service management system, maintenance and system maintenance (MA Services).",
+  crwns:
+    "Crwns Clothing is a fashion website store built with React and Redux. The purpose of this project is to learn how React and Redux work in managing states and to practice coding HTML CSS.",
 };
 
 // Image size -> 600 x 337 px
@@ -91,6 +93,18 @@ const ISC_INTERN_IMG = [
   },
 ];
 
+const CRWNS_IMG = [
+  {
+    image: "/images/crwn_1.png",
+  },
+  {
+    image: "/images/crwn_2.png",
+  },
+  {
+    image: "/images/crwn_3.png",
+  },
+];
+
 function Projects() {
   return (
     <div className="projects" id="projects">
@@ -108,10 +122,11 @@ function Projects() {
             </div>
           </div>
           <div className="btn-project">
-            <a
+            <Link
               href="https://battle-cpe.firebaseapp.com/"
               target="_blank"
               rel="noreferrer"
+              passHref
             >
               <button
                 type="button"
@@ -120,11 +135,7 @@ function Projects() {
               >
                 Live Demo
               </button>
-            </a>
-
-            {/* <a href='https://ecourse.cpe.ku.ac.th/tpm/project/practicum-61s#group-7' target="_blank" rel="noreferrer">
-                            <button type="button" name="btn-live-demo" className="btn-live-demo" >More</button>
-                        </a> */}
+            </Link>
 
             <Link href="/projects/battlecpe" passHref>
               <button
@@ -244,6 +255,60 @@ function Projects() {
         </div>
 
         <ImageSlider slides={ISC_INTERN_IMG}></ImageSlider>
+      </div>
+
+      <div className="project-content">
+        <div className="text-project">
+          <div className="text-container">
+            <div className="topic-project">
+              <h2>Crwns Clothing</h2>
+            </div>
+            <div className="details-project">
+              <p>{projectsData.crwns}</p>
+            </div>
+          </div>
+
+          <div className="btn-project">
+            <Link
+              href="https://crwn-clothing-3peet.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              passHref
+            >
+              <button
+                type="button"
+                name="btn-live-demo"
+                className="btn-live-demo"
+              >
+                Live Demo
+              </button>
+            </Link>
+            <a
+              href="https://github.com/3Peet/crwn-clothing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button
+                type="button"
+                name="btn-live-demo"
+                className="btn-live-demo"
+              >
+                Github
+              </button>
+            </a>
+            <Link href="/projects/crwn" passHref>
+              <button
+                type="button"
+                name="btn-live-demo"
+                className="btn-live-demo"
+              >
+                Case Study
+              </button>
+            </Link>
+          </div>
+        </div>
+
+        <ImageSlider slides={CRWNS_IMG}></ImageSlider>
       </div>
     </div>
   );

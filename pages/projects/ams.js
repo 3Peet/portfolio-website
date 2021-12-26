@@ -2,7 +2,6 @@ import React from "react";
 import Header from "/components/Header";
 import Footer from "/components/Footer";
 import Head from "next/head";
-import img from "next/image";
 
 function ams() {
   const AMS_DATA = {
@@ -35,7 +34,7 @@ function ams() {
                 href="https://www.isc-intl.com/"
                 target="_blank"
                 rel="noreferrer"
-                className="isc_link"
+                className="link"
               >
                 Innovation Software Consulting Co Ltd.{" "}
               </a>

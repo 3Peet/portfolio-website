@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FiX, FiMenu } from "react-icons/fi";
 import Link from "next/link";
 import Image from "next/image";
@@ -8,8 +8,22 @@ function Header() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const [showNavShadow, SetshowNavShadow] = useState(false);
+  const controlNavbar = () => {
+    window.scrollY >= 50 ? SetshowNavShadow(true) : SetshowNavShadow(false);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  }, []);
+
   return (
-    <div className="header" id="header">
+    <div
+      className={showNavShadow ? "header header-shadow" : "header"}
+      id="header"
+    >
       <div className="container">
         <nav className="menu-bar">
           <div className="group">
