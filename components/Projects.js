@@ -122,11 +122,11 @@ function Projects() {
             </div>
           </div>
           <div className="btn-project">
-            <Link
+            <a
               href="https://battle-cpe.firebaseapp.com/"
               target="_blank"
               rel="noreferrer"
-              passHref
+              
             >
               <button
                 type="button"
@@ -135,7 +135,7 @@ function Projects() {
               >
                 Live Demo
               </button>
-            </Link>
+            </a>
 
             <Link href="/projects/battlecpe" passHref>
               <button
@@ -269,11 +269,10 @@ function Projects() {
           </div>
 
           <div className="btn-project">
-            <Link
+            <a
               href="https://crwn-clothing-3peet.vercel.app/"
               target="_blank"
               rel="noreferrer"
-              passHref
             >
               <button
                 type="button"
@@ -282,7 +281,7 @@ function Projects() {
               >
                 Live Demo
               </button>
-            </Link>
+            </a>
             <a
               href="https://github.com/3Peet/crwn-clothing"
               target="_blank"
