@@ -6,9 +6,9 @@ import Head from "next/head";
 function ams() {
   const AMS_DATA = {
     p1: "This project is one that I developed during my internship. I developed an account management app consisting of two parts. The first is that I developed an app that works on mobiles app so that I make it can run on the web app with Flutter 2. Second, I developed more functions for the application like service management system, maintenance and system maintenance (MA Services).",
-    p2: `This project consists of two parts: The first thing is to develop applications built from Flutter 1 to run on Flutter 2 and support web applications. The web can support Responsive and work properly.`,
-    p3: `And the second thing is The development of the Maintenance Management System (MA Services). There are three parts to this system: Maintenance and Maintenance Management System Information Generation, Maintenance Services Management System Status Monitoring, and Annual Summary Review with graph
-      The development tools are Flutter 2, Spring Boot, MySQL.
+    p2: `This project consists of two parts: The first thing is to develop applications built from Flutter 1 to run on Flutter 2 and support web applications. The web can support responsive and work properly.`,
+    p3: `And the second thing is the development of the Maintenance Management System (MA Services). There are three parts to this system: Maintenance and Maintenance Management System Information Generation, Maintenance Services Management System Status Monitoring, and Annual Summary Review with graph
+      the development tools are Flutter 2, Spring Boot, MySQL.
       `,
   };
   return (

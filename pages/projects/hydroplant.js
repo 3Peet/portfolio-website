@@ -6,7 +6,7 @@ function hydroplant() {
   const HYDROPLANT_DATA = {
     p1: "HYDROPLANT is an IOT project that makes growing vegetables very easy by controlling various factors of hydroponics plants that affect plant growth from sensor reading and processing fertilization, water control, and temperature control. And there is a web application to view real-time and historical sensor values, as well as manual-control and other functions.",
     p2: `Nowadays, the cultivation of hydroponic vegetables is widely known because it is an exotic vegetable with the distinctive feature of not having to water the plant daily and easy to control environment suitable for growth. Control of devices through a network with the Internet of things, technology is more popular in agriculture. The organizer implemented the IoT technology to the environment control to suit the growth of hydroponic vegetables by using various microcontrollers and sensors to control the environment and then report the results to the web application and the system will analyze the growth of vegetables.`,
-    p3: "As for Hardware, I have used 2 Microcontrollers which is ESP-32 and Arduino UNO 3 to read sensors such as EC, PH, air Temp, water Temp, water level, air humidity and controlling watering and fertilizing plants.",
+    p3: "As for Hardware, I have used 2 Microcontrollers which is ESP-32 and Arduino UNO 3 to read sensors such as EC, PH, Air Temp, Water Temp, Water level, Air humidity and controlling watering and fertilizing plants.",
     p4: "As for Software, I developed a Web Application to track the status of all sensors values and to monitor plant growth and data exchange between hardware and software using MQTT Protocol. Technologies used in web development include HTML, CSS, Javascript, NodeJs, Express, Socket.io, and Deploy on DigitalOcean (NGINX).",
   };
   return (
@@ -20,7 +20,7 @@ function hydroplant() {
       <Header></Header>
       <div className="projects-wrapper">
         <div className="head-projects">
-          <h1>Hydroplant</h1>
+          <h1>HYDROPLANT</h1>
         </div>
 
         <div className="intro-projects">
