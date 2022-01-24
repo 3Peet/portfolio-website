@@ -47,12 +47,8 @@ function Banner() {
           <p className="detail-text">
             CREATIVE FRONT-END WEB DEVELOPER | EDUCATOR
           </p>
-          <form method="get" action="/CV.pdf" target="_blank">
-            <button
-              type="submit"
-              name="btn-download-resume"
-              className="btn-download-resume"
-            >
+          <form method="get" action="/Thanakrit.pdf" target="_blank">
+            <button type="submit" className="btn-download-resume">
               Download Resume
             </button>
           </form>
