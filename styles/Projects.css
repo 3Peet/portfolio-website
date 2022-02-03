@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 80%;
+  max-width: 1215px;
   margin: 0 auto;
 }
 
@@ -69,8 +70,10 @@
 }
 
 .gif-photo {
-  width: 40%;
   position: relative;
+  width: 45%;
+  display: flex;
+  align-items: center;
 }
 
 .gif-photo span img {

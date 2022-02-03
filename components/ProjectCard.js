@@ -60,9 +60,8 @@ const ProjectCard = () => {
               </div>
             </div>
             <div className="gif-photo">
-              <Image src={gif} layout="fill" />
+              <Image src={gif} width={600} height={337} alt="project_pic" />
             </div>
-            {/* <ImageSlider slides={BATTLE_CPE_IMG}></ImageSlider> */}
           </div>
         )
       )}
