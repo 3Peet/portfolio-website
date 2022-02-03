@@ -1,3 +1,4 @@
+// Image size -> 600 x 337 px
 export const projectsData = [
   {
     id: 0,
@@ -49,5 +50,15 @@ export const projectsData = [
     demoLink: "https://crwn-clothing-3peet.vercel.app/",
     readMoreLink: "/projects/crwn",
     githubLink: "https://github.com/3Peet/crwn-clothing",
+  },
+  {
+    id: 5,
+    title: "Web 3.0",
+    subtitle: `The purpose of this project is to learn web3.0 technologies and how the blockchain cryptocurrency app works. My web 3.0 has a feature of exchanging cryptocurrency within the Ethereum network with MetaMask.
+    `,
+    gif: "/images/web3.png",
+    demoLink: "https://web3-0-theta.vercel.app/",
+    readMoreLink: "",
+    githubLink: "https://github.com/3Peet/web3.0",
   },
 ];
