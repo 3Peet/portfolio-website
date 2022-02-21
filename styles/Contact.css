@@ -7,6 +7,10 @@
   margin: 80px 0;
 }
 
+.contact textarea {
+  padding: 10px;
+}
+
 .form-container {
   display: flex;
   flex-direction: row;
@@ -78,6 +82,7 @@
 .contact-name-email input {
   height: 20px;
   width: 250px;
+  padding: 10px;
 }
 
 .submit-contact {

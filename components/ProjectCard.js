@@ -60,7 +60,14 @@ const ProjectCard = () => {
               </div>
             </div>
             <div className="gif-photo">
-              <Image src={gif} width={600} height={337} alt="project_pic" />
+              <Image
+                blurDataURL={gif}
+                placeholder="blur"
+                src={gif}
+                width={600}
+                height={337}
+                alt="project_pic"
+              />
             </div>
           </div>
         )
